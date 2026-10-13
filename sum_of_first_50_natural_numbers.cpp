@@ -14,5 +14,9 @@ int main()
         sum += i;
     }
     cout << "sum: " << sum;
+
+    // verify using the formula n(n+1)/2
+    int formula_sum = n * (n + 1) / 2;
+    cout << "\nformula sum: " << formula_sum;
     return 0;
 }
